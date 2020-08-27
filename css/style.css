@@ -291,14 +291,15 @@ button:focus,
     }
 
 .header .content .about-text {
-    margin : 10px 0;
+    margin  : 10px 0;
+    padding : 0
     }
 
 .header .btn {
     margin-top : 40px;
     }
 
-@media (max-width : 480px) {
+@media (max-width : 768px) {
     .header {
         padding       : 0;
         text-align    : center;
