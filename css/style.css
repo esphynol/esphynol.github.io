@@ -31,7 +31,7 @@ div {
         text-justify: inter-word;
       }   
 
-      
+
 /* --------------------------------------
  * Global Typography
  *------------------------------------------*/
@@ -49,6 +49,12 @@ h1 {
     text-align  : left;
     }
 
+ ::placeholder { 
+        color    : deeppink;
+        font-size: 5rem;
+        text-transform: uppercase;
+       }
+      
 h2 {
     font-size   : 18px;
     line-height : 1.8em;
