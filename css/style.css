@@ -44,7 +44,11 @@ h1 {
     line-height : 1.8em;
     font-weight : 700;
     color       : #dd16c3;
+<<<<<<< HEAD
     text-align  : left;
+=======
+    text-align  : center ;
+>>>>>>> parent of 4cb7912... Update style.css
     }
       
 h2 {
@@ -232,7 +236,10 @@ button:focus,
 
 .gray-bg {
     background-color: #bebece;
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 4cb7912... Update style.css
     }
 
 /* --------------------
