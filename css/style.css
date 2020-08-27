@@ -30,43 +30,8 @@ div {
         text-align: justify;
         text-justify: inter-word;
       }   
- 
-var paragraph = $('p');
-var words     = paragraph.text().split(" ");
-      
-    paragraph.empty();
-      
-      $.each(words, function(i, v) {
-          paragraph.append('<span data-word="' + v + '"> ' + v + ' </span>');
-      });
-    p {
-        background: white;
-      }
-      
-    body {
-        background: white;
-      }
-      
-    span {
-        position: relative;
-        font-size: 1.25rem;
-        line-height: 1.4;
-      }
-      
-    span::after {
-        background: white;
-        content: attr(data-word);
-        display: block;
-        height: 75%;
-        left: 0;
-        padding-top: 0.14em;
-        position: absolute;
-        pointer-events: none;
-        overflow: hidden;
-        top: -0.28em;
-        width: 100%;
-      }      
 
+      
 /* --------------------------------------
  * Global Typography
  *------------------------------------------*/
