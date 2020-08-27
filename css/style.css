@@ -19,8 +19,10 @@ body {
     font-size   : 15px;
     line-height : 1.8em;
     color       : #3a4750;
+    text-justify: auto;
     font-weight : 300;
     background  : url("../img/pattern-bg2.png") fixed;
+    background-color: rgba(197, 190, 157, 0.5);
     }
 
 /* --------------------------------------
@@ -48,6 +50,7 @@ h3 {
     font-size   : 16px;
     line-height : 1.8em;
     font-weight : 500;
+    text-align  : justify ;
     }
 
 h4 {
