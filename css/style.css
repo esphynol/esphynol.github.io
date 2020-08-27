@@ -22,9 +22,7 @@ body {
     text-justify: auto;
     font-weight : 300;
     background  : url("../img/pattern-bg2.png") fixed;
-div {
-        text-indent: 50px;
-      }
+    }
     
 div {
         text-align: justify;
@@ -48,12 +46,6 @@ h1 {
     color       : #dd16c3;
     text-align  : left;
     }
-
- ::placeholder { 
-        color    : deeppink;
-        font-size: 5rem;
-        text-transform: uppercase;
-       }
       
 h2 {
     font-size   : 18px;
@@ -65,7 +57,7 @@ h3 {
     font-size   : 16px;
     line-height : 1.8em;
     font-weight : 500;
-    text-align  : left ;
+    text-align  : left;
     }
 
 h4 {
