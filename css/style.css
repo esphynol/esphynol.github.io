@@ -221,7 +221,7 @@ button:focus,
  * -------------------*/
 
 .gray-bg {
-    background-color : #ffffff;
+    background-color: rgba(117, 190, 157, 0.5);
     }
 
 /* --------------------
@@ -476,6 +476,7 @@ button:focus,
     margin         : 0;
     line-height    : 1;
     text-transform : uppercase;
+    text-align      : center;
     }
 
 .content-item small {
