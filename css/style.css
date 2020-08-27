@@ -18,7 +18,7 @@ body {
     font-family : 'Poppins', sans-serif;
     font-size   : 15px;
     line-height : 1.8em;
-    color       : #3d3d50;
+    color       : #3a4750;
     font-weight : 300;
     background  : url("../img/pattern-bg2.png") fixed;
     }
@@ -301,7 +301,7 @@ button:focus,
 @media (max-width : 480px) {
     .header {
         padding       : 0;
-        text-align    : center;
+        text-align    : justify;
         border-bottom : 1px solid #ededed;
         }
 
@@ -467,7 +467,7 @@ button:focus,
 .content-item h3 {
     margin         : 0 0 10px;
     line-height    : 1;
-    font-weight    : 500;
+    font-weight    : 600;
     text-transform : uppercase;
     }
 
