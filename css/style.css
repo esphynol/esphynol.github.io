@@ -24,6 +24,10 @@ body {
     background  : url("../img/pattern-bg2.png") fixed;
     background-color: rgba(197, 190, 157, 0.5);
     }
+div {
+        text-align: justify;
+        text-justify: inter-word;
+      }   
 
 /* --------------------------------------
  * Global Typography
