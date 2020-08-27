@@ -221,7 +221,7 @@ button:focus,
  * -------------------*/
 
 .gray-bg {
-    background-color : #ffffff;
+    background-color : #686464;
     }
 
 /* --------------------
@@ -467,7 +467,7 @@ button:focus,
 .content-item h3 {
     margin         : 0 0 10px;
     line-height    : 1;
-    font-weight    : bold;
+    font-weight    : 600;
     text-transform : uppercase;
     }
 
