@@ -22,7 +22,6 @@ body {
     text-justify: auto;
     font-weight : 300;
     background  : url("../img/pattern-bg2.png") fixed;
-    background-color: rgba(197, 190, 157, 0.5);
     }
 div {
         text-align: justify;
