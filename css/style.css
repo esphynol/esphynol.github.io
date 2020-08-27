@@ -468,13 +468,13 @@ button:focus,
 .content-item h3 {
     margin         : 0;
     line-height    : normal;
-    font-weight    : 400;
+    font-weight    : 550;
     text-transform : capitalize;
     }
 
 .content-item h4 {
     margin         : 0;
-    line-height    : normal;
+    line-height    : 1;
     text-transform : uppercase;
     }
 
