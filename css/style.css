@@ -292,6 +292,7 @@ button:focus,
 
 .header .content .about-text {
     margin  : 10px 0;
+    word-spacing: 4px;
     }
 
 .header .btn {
