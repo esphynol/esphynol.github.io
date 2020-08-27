@@ -268,7 +268,7 @@ button:focus,
     }
 
 .header .profile-img {
-    margin-bottom : 10px;
+    margin-bottom : 50px;
     }
 
 .header .content-wrapper {
@@ -287,7 +287,7 @@ button:focus,
 
 .header .content .lead {
     font-size : 16px;
-    text-align    : right;
+    text-align    : center;
     }
 
 .header .content .about-text {
@@ -301,7 +301,7 @@ button:focus,
 @media (max-width : 480px) {
     .header {
         padding       : 0;
-        text-align    : justify;
+        text-align    : center;
         border-bottom : 1px solid #ededed;
         }
 
@@ -467,7 +467,7 @@ button:focus,
 .content-item h3 {
     margin         : 0 0 10px;
     line-height    : 1;
-    font-weight    : 600;
+    font-weight    : 700;
     text-transform : uppercase;
     }
 
