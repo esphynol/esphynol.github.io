@@ -22,7 +22,10 @@ body {
     text-justify: auto;
     font-weight : 300;
     background  : url("../img/pattern-bg2.png") fixed;
-    }
+div {
+        text-indent: 50px;
+      }
+    
 div {
         text-align: justify;
         text-justify: inter-word;
@@ -42,7 +45,7 @@ h1 {
     line-height : 1.8em;
     font-weight : 700;
     color       : #dd16c3;
-    text-align  : left ;
+    text-align  : left;
     }
 
 h2 {
@@ -230,7 +233,7 @@ button:focus,
 
 .gray-bg {
     background-color: #bebece;
-    
+
     }
 
 /* --------------------
