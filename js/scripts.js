@@ -1,22 +1,21 @@
+jQuery(function ($) {
 
-<script>
-//Get the button
-var mybutton = document.getElementById("myBtn");
+    'use strict';
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+    // --------------------------------------------------------------------
+    // PreLoader
+    // --------------------------------------------------------------------
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
+    (function () {
+        $('#preloader').delay(200).fadeOut('slow');
+    }());
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
+
+
+    // --------------------------------------------------------------------
+    // Sticky Sidebar
+    // --------------------------------------------------------------------
+
+    $('.left-col-block, .right-col-block').theiaStickySidebar();
+
+}); // JQuery end
