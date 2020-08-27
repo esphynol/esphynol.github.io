@@ -269,6 +269,7 @@ button:focus,
 .section-title h1 {
     margin-bottom : 5px;
     color         : #dd16c3;
+    background-color: lightgray;
     }
 
 /*-----------------------------
