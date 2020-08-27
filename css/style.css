@@ -45,8 +45,7 @@ h1 {
     font-weight : 700;
     color       : #dd16c3;
     text-align  : left;
-    background-color:DodgerBlue;
-    opacity     : 0.75;
+    border      : 2px solid Tomato;
     }
       
 h2 {
