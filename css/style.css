@@ -20,8 +20,11 @@ body {
     line-height : 1.8em;
     color       : #3a4750;
     text-justify: auto;
-    font-weight : 300;
-    background  : url("../img/pattern-bg2.png") fixed;
+    font-weight : 600;
+    background-color: #d1b8d1;
+    background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+   
+    
     }
 
 div {
@@ -40,24 +43,28 @@ h1, h2, h3, h4, h5, h6 {
     }
 
 h1 {
+    font-family : 'Roboto Slab', sans-serif;
+    text-justify: center;
     font-size   : 26px;
-    line-height : 150%;
+    line-height : normal;
     font-weight : 700;
-    color       : #db86d0;
-    background-color : transparent;
+    color       : #be25aa;
+    
     }
       
 h2 {
+    font-family : 'Roboto', sans-serif;
+    text-justify: auto;
     font-size   : 18px;
-    line-height : 1.8em;
-    font-weight : 700;
+    line-height : normal;
+    font-weight : 500;
     }
 
 h3 {
     font-size   : 16px;
     line-height : 1.8em;
     font-weight : 500;
-    text-align  : left;
+    text-align  : start;
     }
 
 h4 {
@@ -231,7 +238,10 @@ button:focus,
  * -------------------*/
 
 .gray-bg {
-    background-color: #bebece;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+   
     }
 
 /* --------------------
@@ -336,7 +346,7 @@ button:focus,
 
 .social-icon li a {
     display       : block;
-    font-size     : 12px;
+    font-size     : 25px;
     color         : #333333;
     width         : 34px;
     height        : 34px;
@@ -462,6 +472,7 @@ button:focus,
     }
 
 .content-item h3 {
+    color          : #444444;
     margin         : 0;
     line-height    : normal;
     font-weight    : 600;
@@ -471,12 +482,14 @@ button:focus,
 .content-item h4 {
     margin         : 0;
     line-height    : 1;
+    font-weight    : 500;
     text-transform : uppercase;
     text-align     : left;
+    color          : #f36cc6;
     }
 
 .content-item small {
-    color : #888888;
+    color : #530653;
     }
 
 /*-------------------
