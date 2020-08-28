@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size   : 26px;
     line-height : 1.8em;
-    font-weight : 900;
+    font-weight : 700;
     color       : #db86d0;
     background-color : transparent;
     }
@@ -232,10 +232,6 @@ button:focus,
 
 .gray-bg {
     background-color: #bebece;
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of 4cb7912... Update style.css
     }
 
 /* --------------------
@@ -267,8 +263,7 @@ button:focus,
     }
 
 .section-title h1 {
-    margin-bottom : 5px;
-    color         : #dd16c3;
+    color           : #dd16c3;
     background-color: lightgray;
     }
 
@@ -285,24 +280,9 @@ button:focus,
 .header .profile-img {
     margin-bottom : 50px;
     }
-
-.header .content-wrapper {
-
-    }
-
-.header .content {
-    width  : 100%;
-    margin : 0 auto;
-    }
-
-.header .content h1 {
-    line-height : 0.86;
-    margin      : 0 0 5px;
-    }
-
-.header .content .lead {
-    font-size : 16px;
-    text-align    : center;
+  {
+    font-size  : 16px;
+    text-align : center;
     }
 
 .header .content .about-text {
