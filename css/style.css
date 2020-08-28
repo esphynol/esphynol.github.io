@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
 h1 {
-    font-family : 'Roboto Slab', sans-serif;
+    font-family :'Questrial', sans-serif;
     text-justify: center;
     font-size   : 26px;
     line-height : normal;
@@ -239,9 +239,7 @@ button:focus,
 
 .gray-bg {
     background-color: #ffffff;
-    background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-   
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
     }
 
 /* --------------------
